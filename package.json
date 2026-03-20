@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist -r https://github.com/tanlangdark.github.io.git"
+    "deploy": "gh-pages -d dist -r https://github.com/tanlangDark/tanlangdark.github.io.git"
   },
   "dependencies": {
     "vue": "^3.5.30"
