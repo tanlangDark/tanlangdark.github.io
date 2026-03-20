@@ -3,7 +3,6 @@ import { ref } from 'vue'
 import viteLogo from '../assets/vite.svg'
 import heroImg from '../assets/hero.png'
 import vueLogo from '../assets/vue.svg'
-
 const count = ref(0)
 </script>
 
@@ -90,4 +89,30 @@ const count = ref(0)
 
   <div class="ticks"></div>
   <section id="spacer"></section>
+ 
 </template>
+
+<style scoped>
+.kanban-board {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+.column {
+  flex: 1;
+  background: #f5f7fa;
+  border-radius: 8px;
+  padding: 16px;
+}
+.card-list {
+  min-height: 200px;
+}
+.drag-card {
+  margin-bottom: 12px;
+  cursor: grab;
+}
+.drag-container {
+  min-height: 200px;
+  background: #f0f0f0;
+}
+</style>

@@ -10,11 +10,13 @@
     "deploy": "gh-pages -d dist -r https://github.com/tanlangDark/tanlangdark.github.io.git"
   },
   "dependencies": {
-    "vue": "^3.5.30"
+    "vue": "^3.5.30",
+    "vuedraggable": "^4.1.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.5",
     "gh-pages": "^6.3.0",
+    "sass-embedded": "^1.98.0",
     "vite": "^8.0.1"
   }
 }
